@@ -35,7 +35,7 @@
       }
 
       function requestPermissions() {
-        window.safari.pushNotification.requestPermission('https://apps.wearetrying.info/push-api', domain, {}, function(subscription) {
+        window.safari.pushNotification.requestPermission('https://phenomenal-horse-ff6d64.netlify.app/', domain, {}, function(subscription) {
             console.log(subscription);
             if(c.permission === 'granted') {
                 updateSubscriptionOnServer(subscription);
